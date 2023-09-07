@@ -8,33 +8,62 @@
 main{
     padding: 2rem;
     margin: 2rem auto;
-    width: 65%;
+    width: 80%;
+    height: fit-content;
     border: 2px solid #d4d4d494;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-#imgdiv, header, #day, #time, #track, #github{
+#section1{
+    width: 60%;
+}
+
+#section2{
+    width: 40%;
+    align-self: center;
+}
+
+#section2 > div{
+    display: flex;
+    flex-flow: column;
+    width: auto;
+}
+
+#imgdiv, header, #day, #time, #track, #github{ 
     width: 100%;
     margin: auto;
     font-size: 1rem;
     text-align: center;
-    padding-bottom: 1rem;
+    padding: 0.5rem;
 }
-
 img{
     margin: 1rem auto;
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
     border: 2px solid black;
     border-radius: 50%;
 }
 
 a{
     text-decoration: none;
-    border: 1px solid #d4d4d494;
+    border: 1px solid black;
     padding: 0.5rem;
-    border-radius: 2%;
+    border-radius: 5px;
+    background-color: #d4d4d494;
 }
  a:hover{
     color: aliceblue;
     background-color: rgb(106, 162, 234);
+ }
+
+ @media screen and (max-width: 780px) {
+    #section1, #section2{
+        width: 100%;
+    }
+
+    img{
+        width: 70%;
+        height: 70%;
+    }
  }
