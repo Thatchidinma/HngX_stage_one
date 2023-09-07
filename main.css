@@ -13,7 +13,7 @@ main{
 }
 
 #imgdiv, header, #day-and-time, #track, #github{
-    width: max-content;
+    width: 100%;
     margin: auto;
     font-size: 1rem;
     padding-bottom: 1rem;
