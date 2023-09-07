@@ -12,29 +12,20 @@ main{
     border: 2px solid #d4d4d494;
 }
 
-#imgdiv, header, #day-and-time, #track, #github{
+#imgdiv, header, #day, #time, #track, #github{
     width: 100%;
     margin: auto;
     font-size: 1rem;
+    text-align: center;
     padding-bottom: 1rem;
 }
 
 img{
     margin: 1rem auto;
-    width: 250px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     border: 2px solid black;
     border-radius: 50%;
-}
-
-#day-and-time{
-    display: flex;
-    justify-content: center;
-}
-
-#day-and-time > div{
-    display: inline-block;
-    padding: 0 1rem;
 }
 
 a{
