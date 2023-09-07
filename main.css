@@ -12,7 +12,7 @@ main{
     border: 2px solid #d4d4d494;
 }
 
-#imgdiv, header, #day-and-time, #track{
+#imgdiv, header, #day-and-time, #track, #github{
     width: max-content;
     margin: auto;
     font-size: 1rem;
@@ -20,9 +20,9 @@ main{
 }
 
 img{
-    margin: auto 2rem;
-    width:50%;
-    height: 50%;
+    margin: 1rem auto;
+    width: 250px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 50%;
 }
@@ -36,3 +36,14 @@ img{
     display: inline-block;
     padding: 0 1rem;
 }
+
+a{
+    text-decoration: none;
+    border: 1px solid #d4d4d494;
+    padding: 0.5rem;
+    border-radius: 2%;
+}
+ a:hover{
+    color: aliceblue;
+    background-color: rgb(106, 162, 234);
+ }
