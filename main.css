@@ -37,7 +37,7 @@ main{
     width: auto;
 }
 
-#imgdiv, header, #day, #time, #track, #github{ g
+#imgdiv, header, #day, #time, #track, #github{ 
     width: 100%;
     margin: auto;
     font-size: 1rem;
