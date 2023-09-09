@@ -68,6 +68,10 @@ a{
  }
 
  @media screen and (max-width: 780px) {
+    body{
+        height: 100vh;
+    }
+    
     #section1, #section2{
         width: 100%;
     }
