@@ -24,8 +24,8 @@
                 </div>
                 <div id="time" data-testid="currentUTCTime">
                 </div>
-                <div id="track" data-testid="myTrack">
-                Track: FrontEnd
+                <div id="track" >
+                Track: <p data-testid="myTrack">FrontEnd</p>
                 </div>
                 <div id="github">
                     Click here to go to <a href="https://github.com/Thatchidinma/HngX_stage_one" data-testid=“githubURL”>Github</a>
@@ -38,11 +38,11 @@
         const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         const dayIndex = currentDate.getDay();
         const dayName = daysOfWeek[dayIndex];
-        document.getElementById('day').textContent = "Day of the week: " + dayName;
+        document.getElementById('day').textContent = dayName;
 
         function updateUTCTime() {
             const currentUTC = new Date().getTime();
-            document.getElementById("time").textContent = "UTC Time: " + currentUTC;
+            document.getElementById("time").textContent = currentUTC;
         }
         updateUTCTime();
         setInterval(updateUTCTime, 1000);
